@@ -184,23 +184,23 @@ const D = {
   },
 
   cpi: {
-    t1_2026:       { value: 2.53,          updated: "10/04/2026", source: "Cục Thống kê",      note: "CPI T1/2026: 2,9% YoY · Ổn định · Trước khi chiến tranh Iran" },
-    t2_2026:       { value: "~3,0–3,5",   updated: "10/04/2026", source: "Cục TK ước",        note: "CPI T2/2026 ước: ~3,0–3,5% YoY · Bắt đầu chịu áp lực dầu từ cuối T2" },
-    bq_2t:         { value: "~3,0",        updated: "10/04/2026", source: "Cục Thống kê",      note: "CPI BQ 2T/2026: ~3,0% YoY · Trong tầm kiểm soát · Trước khi chiến tranh" },
-    t3_forecast:   { value: "~5,0–5,5%",    updated: "10/04/2026", source: "Nội bộ cập nhật",    note: "CPI T3/2026 ước: ~5,0–5,5% YoY · Xăng kỷ lục T3 → truyền dẫn mạnh · Lạm phát đỉnh 5 năm (VnEconomy 4/4) · T4-T5 sẽ cao hơn do lag · Ceasefire = hạ nhiệt từ T6" },
-    muc_tieu:      { value: 4.5,           updated: "10/04/2026", source: "QH/CP",             note: "Mục tiêu CPI 2026: 4,5% YoY (CP giao) · Đang vượt với CPI T3 ~5,0–5,5% · Ceasefire + dầu giảm = có thể về 4,5% cuối năm · T4-T5 vẫn còn rủi ro vượt" },
+    t1_2026:       { value: 2.53,          updated: "10/04/2026", source: "Cục Thống kê",      note: "CPI T1/2026: +2,9% YoY · Ổn định trước khi chiến tranh Iran bùng nổ 28/2 · Xăng chưa tăng mạnh · PMI 52,5 điểm · XNK T1 tăng 39%" },
+    t2_2026:       { value: "~3,0",   updated: "10/04/2026", source: "Cục TK ước",        note: "CPI T2/2026: ~3,0% YoY (ước) · MBS báo cáo BQ 2T: 2,94% · Xăng giảm 9% YoY T2 kìm CPI · Chiến tranh Iran bắt đầu 28/2 → chưa ảnh hưởng T2 nhiều · PMI T2: 54,3 điểm cao nhất 4 tháng" },
+    bq_2t:         { value: "3,51",        updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",      note: "CPI BQ Q1/2026 CHÍNH THỨC: +3,51% YoY · Lạm phát cơ bản: +3,63% · Nhà ở+VL XD dẫn đầu: +5,69% → tác động +1,29pp · Hàng ăn+DV ăn uống: +4,55% · T3 tăng 1,23% so T2 (xăng+VL XD) · T3 YoY: 4,65% đỉnh 5 năm" },
+    t3_forecast:   { value: "4,65%",    updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",    note: "CPI T3/2026 CHÍNH THỨC: +4,65% YoY (đỉnh 5 năm) · +1,23% MoM (xăng+VL XD dẫn đầu) · +2,44% so 12/2025 · Xăng dầu: cú sốc lớn nhất · Giao thông đóng góp +1,28pp · CPI T4 sẽ tiếp tục cao (lag xăng T3) · Ceasefire → T5-T6 bắt đầu giảm" },
+    muc_tieu:      { value: 4.5,           updated: "10/04/2026", source: "QH/CP",             note: "Mục tiêu CPI 2026: 4,5% YoY (CP giao) · Q1 BQ 3,51% = trong tầm · T3: 4,65% đã vượt mục tiêu · T4-T5: còn rủi ro lag xăng · Ceasefire → Brent $95 → CPI T5-T6 hạ dần · Target khả thi nếu Hormuz mở hoàn toàn T5" },
   },
 
   // ─── V. BOP & CƯỚC CONTAINER ─────────────────────────────────
   bop: {
-    xk_2t:         { value: 76.36,         updated: "10/04/2026", source: "Cục Hải quan",      note: "Xuất khẩu Q1/2026: FDI dẫn đầu · Điện tử, máy móc tăng tốt · Hưởng lợi từ chuyển dịch chuỗi cung ứng khỏi Trung Quốc" },
-    nk_2t:         { value: 79.34,         updated: "10/04/2026", source: "Cục Hải quan",      note: "Nhập khẩu Q1/2026: tăng do máy móc thiết bị · Nhập siêu 3,64 tỷ USD Q1 (Vietstock 4/4)" },
-    can_can_2t:    { value: -2.98,          updated: "10/04/2026", source: "Cục Hải quan/TK",  note: "Cán cân thương mại Q1/2026: nhập siêu 3,64 tỷ USD · Áp lực VND Q2 từ trade deficit · Bù đắp một phần bởi FDI 5,41 tỷ + kiều hối" },
-    tong_xnk_2t:   { value: 155.7,         updated: "10/04/2026", source: "Cục Hải quan",      note: "Tổng XNK Q1/2026: ~178 tỷ USD (ước) · Tăng trưởng tốt so với Q1/2025 · Điện tử, may mặc, giày dép dẫn đầu" },
-    fdi_giai_ngan: { value: 3.21,           updated: "10/04/2026", source: "Cục Thống kê",     note: "FDI thực hiện Q1/2026: 5,41 tỷ USD · Tăng 9,1% YoY · Cao nhất Q1 trong 5 năm · FTSE upgrade kỳ vọng → FDI portfolio tăng thêm từ T4" },
-    fdi_dang_ky:   { value: 6.03,           updated: "10/04/2026", source: "Cục Đầu tư NN",   note: "FDI đăng ký Q1/2026: 15,2 tỷ USD · Phục hồi sau 2 tháng đầu giảm · Công nghiệp chế biến chiếm 82,5% FDI thực hiện · Hàn Quốc, Singapore, Nhật dẫn đầu" },
+    xk_2t:         { value: "122.93",         updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",      note: "XK Q1/2026 CHÍNH THỨC: 122,93 tỷ USD (+19,1% YoY) · T3: 46,44 tỷ · CN chế biến: 110,52 tỷ (89,9%) · Nông lâm sản: 9,34 tỷ (7,6%) · Thủy sản: 2,64 tỷ (2,2%) · Mỹ: 39,0 tỷ (+24,3%) · TQ: 16,8 tỷ (+26,4%) · ASEAN: 10,3 tỷ (+11,6%) · EU: 15,1 tỷ (+9,9%) · Hàn: 8,1 tỷ (+19,6%) · FDI chiếm 79% tổng XK" },
+    nk_2t:         { value: "126.57",         updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",      note: "NK Q1/2026 CHÍNH THỨC: 126,57 tỷ USD (+27,0% YoY) · T3: 47,11 tỷ (+38,2% tháng trước) · FDI: 91,37 tỷ (+45,3%) · Trong nước: 35,2 tỷ (−4,3%) · 22 mặt hàng >1 tỷ USD · TQ: 50,1 tỷ (nhập siêu từ TQ: 33,3 tỷ +34,4%) · Hàn: nhập siêu 10,6 tỷ (+48,7%) · ASEAN: nhập siêu 5,0 tỷ (+31,3%) · Tư liệu sản xuất: 118,84 tỷ (93,9%)" },
+    can_can_2t:    { value: -2.98,          updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",  note: "Cán cân TM Q1/2026 CHÍNH THỨC: NHẬP SIÊU 3,64 tỷ USD (vs XS 3,57 tỷ Q1/2025 = đảo chiều) · T3: nhập siêu 0,67 tỷ · Trong nước: nhập siêu 10,73 tỷ · FDI: xuất siêu 7,09 tỷ · Nguyên nhân: máy móc FDI tăng mạnh (đầu tư = nhập siêu tốt) · Áp lực VND nhẹ Q2 · Bù đắp: FDI 5,41 tỷ + kiều hối ~22 tỷ/năm" },
+    tong_xnk_2t:   { value: "249.50",         updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",      note: "Tổng XNK Q1/2026 CHÍNH THỨC: 249,50 tỷ USD (+23,0% YoY) · T3 kỷ lục: 93,55 tỷ (+39,2% vs T2, +23,9% YoY) · Cao nhất tháng 3 từ trước đến nay · 2T đầu: 155,7 tỷ (+22,3%) · FDI chiếm 79% XK và 72% NK · Dù chiến tranh Iran tháng 3 vẫn tăng mạnh" },
+    fdi_giai_ngan: { value: "5.41",           updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",     note: "FDI thực hiện Q1/2026 CHÍNH THỨC: 5,41 tỷ USD (+9,1% YoY) · Cao nhất Q1 trong 5 năm · CN chế biến chiếm 82,5% · FTSE Sep 2026 = catalyst FDI portfolio thêm 5–6 tỷ passive · Hàn Quốc/Singapore/Nhật dẫn đầu vốn thực hiện" },
+    fdi_dang_ky:   { value: "15.20",           updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",   note: "FDI đăng ký Q1/2026 CHÍNH THỨC: 15,20 tỷ USD (+42,9% YoY) · Phục hồi mạnh sau 2T đầu giảm · Tháng 3 bứt phá · 96 nghìn DN gia nhập+quay lại T3 (+31,7%) · Samsung, LG, Intel tiếp tục mở rộng · FTSE upgrade + chuyển dịch chuỗi cung ứng = FDI registration tăng mạnh Q2" },
     kieu_hoi_2025: { value: "~20",          updated: "10/04/2026", source: "NHNN ước tính",    note: "Kiều hối 2025: ~20 tỷ USD (tăng từ 18 tỷ 2024) · 2026 ước ~22 tỷ · Ceasefire không ảnh hưởng kiều hối · VN-Index phục hồi hấp dẫn kiều hối đầu tư" },
-    du_tru:        { value: 83.6,           updated: "10/04/2026", source: "TradingEconomics/IMF Dec 2025", note: "DTNH 10/4: ~95–100 tỷ USD (ước) · NHNN đã bán ngoại tệ can thiệp T3 · Sau ceasefire: áp lực giảm → NHNN có thể mua lại · Mục tiêu NHNN: 16 tuần nhập khẩu" },
+    du_tru:        { value: "~95–100",           updated: "10/04/2026", source: "NHNN ước Q1/2026", note: "DTNH Q1/2026: ~95–100 tỷ USD (ước) · NHNN bán ~5–8 tỷ can thiệp T3 · Ceasefire → áp lực giảm → NHNN dừng bán · Nếu chợ đen về 26.500 → NHNN có thể mua thêm · Mức an toàn: >16 tuần nhập khẩu (~90 tỷ)" },
   },
 
   freight: {
@@ -213,25 +213,25 @@ const D = {
 
   // ─── VI. M2 & NSNN → LS LNH ──────────────────────────────────
   m2: {
-    yoy_2025:      { value: "+13,5",        updated: "10/04/2026", source: "NHNN/GSO",         note: "M2 YoY 2025: +13,5% · Ổn định · 2026 target: +15% theo tín dụng · Q1/2026 tín dụng +2,65% = 19,08 triệu tỷ · M2 ước Q1: +3–4%" },
+    yoy_2025:      { value: "+13,5",        updated: "10/04/2026", source: "NHNN/GSO",         note: "M2 YoY 2025: +13,5% · 2026: NHNN target tín dụng 15% → M2 ~14-15% · Q1/2026 tín dụng +2,65% = 19,08 triệu tỷ · M2 ước Q1: +3-4% (chậm hơn Q1/2025) · Cam kết giảm LS 9/4 → tín dụng tăng tốc Q2 → M2 tăng theo" },
     abs_2025:      { value: "~20.000",      updated: "10/04/2026", source: "NHNN ước tính",    note: "M2 tuyệt đối cuối 2025: ~20.000 nghìn tỷ đồng (ước) · Q1/2026 tín dụng 19,08 triệu tỷ = ~19.080 nghìn tỷ · M2 thực tế sẽ cao hơn do multiplier" },
     multiplier:    { value: "~4,3",         updated: "10/04/2026", source: "NHNN tính toán",   note: "Money multiplier 10/4: ~4,3 · Tăng nhẹ · LDR 100% = multiplier cao · Cam kết giảm LS 9/4 → tín dụng có thể tăng → multiplier tăng → M2 tăng → áp lực lạm phát nếu không kiểm soát" },
-    tin_dung:      { value: "+2,65% YTD Q1", updated: "10/04/2026", source: "VCBS/Thanhnien T2/2026", note: "Tín dụng Q1/2026: +2,65% YTD = 19,08 triệu tỷ đồng · Tăng từ mức thấp T1-T2 · NHNN target cả năm 15% · Q2 kỳ vọng: +5–6% YTD nếu LS giảm theo cam kết 9/4" },
+    tin_dung:      { value: "+2,65% YTD", updated: "10/04/2026", source: "VCBS/Thanhnien T2/2026", note: "Tín dụng Q1/2026 CHÍNH THỨC: +2,65% YTD = 19,08 triệu tỷ đồng · NHNN target 15% cả năm · Q1 thấp hơn kỳ vọng do chiến tranh Iran bất ổn · 46 NH cam kết giảm LS 9/4 → tín dụng kỳ vọng bứt phá Q2 · Mục tiêu 15%: cần +12,35% trong Q2-Q4" },
     co_che:        { value: "NHNN hút ròng M0 → M2 kiểm soát · tín dụng +1,4% YTD vs huy động +0,36% → LDR doãng → LS TT1 tăng. M2 Q1/2026 CHƯA CÓ chính thức (NHNN chỉ công bố theo quý, sẽ có tháng 4/2026)", updated:"31/03/2026", source:"MV=PQ + giới hạn nguồn", note:"" },
     irp_link:      { value: "M2 tăng ~12–14% YoY (ước tính từ proxy tín dụng) vs GDP ~8–10% → áp lực VND dài hạn", updated:"31/03/2026", source:"PPP/IRP proxy", note:"" },
     data_limit:    { value: "⚠️ GIỚI HẠN NGUỒN: NHNN chỉ công bố M2 theo QUÝ — không có số liệu tháng. M2 Q4/2025 (01/01/2026) là mới nhất. Q1/2026 sẽ có tháng 4/2026. Không thể cập nhật thường xuyên hơn được.", updated:"31/03/2026", source:"Phân tích cấu trúc", note:"" },
   },
 
   nsnn: {
-    thu_2t:        { value: "~700–750",         updated: "10/04/2026", source: "Kho bạc NN",       note: "Thu NSNN Q1/2026: ~700–750 nghìn tỷ (ước) · Thặng dư 299,3 nghìn tỷ Q1 (VnEconomy 4/4) · Thu vượt chi · Rủi ro: miễn giảm thuế hỗ trợ kinh tế → áp lực thu Q2" },
-    chi_2t:        { value: "~400–450",         updated: "10/04/2026", source: "Kho bạc NN",       note: "Chi NSNN Q1/2026: ~400–450 nghìn tỷ · Tăng >23% YoY · Chi thường xuyên tăng + đầu tư công tăng tốc · Thặng dư 299,3 nghìn tỷ vẫn dương" },
-    dong_kbnn:     { value: "~299",         updated: "10/04/2026", source: "Tính: Thu–Chi",    note: "Thặng dư NSNN Q1/2026: 299,3 nghìn tỷ (thực tế, VnEconomy 4/4) · Cao hơn cùng kỳ · Tuy nhiên CP đang tăng miễn giảm thuế → áp lực Q2-Q3" },
+    thu_2t:        { value: "~750",         updated: "10/04/2026", source: "Kho bạc NN",       note: "Thu NSNN Q1/2026: ~750 nghìn tỷ (ước từ thặng dư 299,3 nghìn tỷ) · VnEconomy 4/4: thặng dư 299,3 nghìn tỷ = thu vượt chi mạnh · Kho bạc tháng 4 hạch toán: 25.073 VND/USD · Chi tăng >23% nhưng thu tăng mạnh hơn · Thuế VAT điện tử + thuế XNK tăng do XNK bứt phá" },
+    chi_2t:        { value: "~450",         updated: "10/04/2026", source: "Kho bạc NN",       note: "Chi NSNN Q1/2026: ~450 nghìn tỷ (ước) · Tăng >23% YoY · Chi thường xuyên tăng + ĐTC tăng tốc · Quốc hội XVI thảo luận thuế xăng dầu 10/4 · Miễn giảm thuế hỗ trợ DN → áp lực thu Q2-Q3" },
+    dong_kbnn:     { value: "299,3",         updated: "10/04/2026", source: "Cục Thống kê 4/4/2026",    note: "Thặng dư NSNN Q1/2026 CHÍNH THỨC: +299,3 nghìn tỷ · VnEconomy 4/4 · Thu vượt chi mạnh dù chi tăng >23% · Hỗ trợ thanh khoản TT2 (tiền từ KBNN ra NH) · Q2: CP tăng miễn giảm thuế → thặng dư có thể giảm · ĐTC Q2 tăng tốc → tiền chảy ra nhiều hơn" },
     co_che:        { value: "Thu>>Chi → ~290k tỷ đọng tại KBNN → rút khỏi M2 → siết TK TT2 → LS LNH cao T1–T3/2026", updated:"07/03/2026", source:"MV=PQ mechanism", note:"Đảo chiều khi KBNN tăng tốc giải ngân ĐTC Q2" },
   },
 
   dtc: {
     ke_hoach_2026: { value: "~800–900",         updated: "10/04/2026", source: "Chính phủ",        note: "Kế hoạch ĐTC 2026: ~800–900 nghìn tỷ (ước, tăng mạnh vs 2025) · Quốc hội 16 thảo luận 10/4: điều chỉnh thuế xăng dầu · Mục tiêu: đẩy ĐTC để bù đắp xuất khẩu khó khăn" },
-    giai_ngan_2t:  { value: "~70.000",       updated: "10/04/2026", source: "Bộ Tài chính",     note: "Giải ngân ĐTC Q1/2026: ~70.000 tỷ (ước, tăng vs Q1/2025) · Chính phủ thúc đẩy mạnh · Chỉ thị 12/CT-TTg 3/4: tăng hiệu lực đấu thầu · Mục tiêu Q2: đạt 30% KH năm" },
+    giai_ngan_2t:  { value: "55.740",       updated: "10/04/2026", source: "Bộ Tài chính/MBS 2T/2026",     note: "Giải ngân ĐTC 2T/2026 CHÍNH THỨC: 55,7 nghìn tỷ (+24,4% YoY) = 5,5% KH năm · T2: 36,6 nghìn tỷ (+6,3%) · Q1 ước: ~85-90 nghìn tỷ · Chỉ thị 12/CT-TTg 3/4: tăng hiệu lực đấu thầu · Target Q1: ~140 nghìn tỷ → chưa đạt · Q2: mùa XD + chỉ thị mới → kỳ vọng tăng mạnh" },
     du_bao_q2:     { value: "250–300",      updated: "10/04/2026", source: "Ước tính",         note: "Dự báo giải ngân ĐTC Q2: 250–300 nghìn tỷ · Mùa xây dựng + Chính phủ đốc thúc · Catalyst cho M2 và tăng trưởng GDP Q2" },
     tpcp:          { value: "~50.000",       updated: "10/04/2026", source: "Kho bạc NN",       note: "TPCP phát hành Q1/2026: ~50.000 tỷ (ước) · Lãi suất 10Y ~4,05% · Kho bạc phát hành đều · Thặng dư NSNN giúp ít vay hơn kế hoạch" },
   },
@@ -311,7 +311,7 @@ const D = {
     dtc_co_che:    { value: "ĐTC thúc đẩy · Chỉ thị 12/CT-TTg 3/4", updated:"10/04/2026", source:"Phân tích 23/3", note:"ĐTC cơ chế 10/4: Chỉ thị 12/CT-TTg 3/4 → nâng cao hiệu lực đấu thầu · Quốc hội XVI thảo luận thuế xăng 10/4 · Mục tiêu: đẩy ĐTC Q2 đạt 30% KH · Catalyst: nếu LS giảm + ceasefire → doanh nghiệp mạnh dạn vay đầu tư" },
     q2_du_bao_ty_gia:{ value:"26.000–26.200 (nếu deal)", updated:"10/04/2026", source:"Nội bộ 24/3", note: "Dự báo tỷ giá Q2: 26.000–26.200 nếu Islamabad thành công (UOB: 26.100) / 26.200–26.400 nếu kéo dài · Ceasefire + DXY 98,82 + chợ đen 26.960 = đang đi đúng hướng · Rủi ro: ceasefire vỡ → về 27.500+" },
     q2_du_bao_ls:  { value: "Big4 6,5–7,5% · Giảm dần T4", updated:"10/04/2026", source:"VCBS/ACBS/Nội bộ", note: "Dự báo LS TT1 Q2: Big4 6,5–7,5% (từ 7,5–8,5%) · ABBank −0,5% mở đầu · Ràng buộc: LDR 100% · Nếu Hormuz mở → dầu giảm → CPI giảm → LS thực tăng → ít áp lực huy động · Target Q2 cuối: 6,0–7,0%" },
-    q2_du_bao_cpi: { value: "~4,5–5,5% YoY", updated:"10/04/2026", source:"Nội bộ 23/3", note: "Dự báo CPI Q2: 4,5–5,5% YoY · Giảm từ kịch bản KB-D trước đây · Ceasefire + Brent $95 → CPI T5-T6 hạ · Lag 2–3T: T4 còn cao (Brent T3 ~$100+) · T5-T6: bắt đầu giảm · Mục tiêu CP 4,5% khả thi nếu Hormuz mở hoàn toàn T5" },
+    q2_du_bao_cpi: { value: "~4,5–5,5% YoY", updated:"10/04/2026", source:"Nội bộ 23/3", note: "Dự báo CPI Q2: 4,5-5,5% YoY · T4: còn cao do lag xăng T3 (4,65%) · T5-T6: Brent $95 vs $115 T3 → hạ nhiệt dần · Ceasefire = giảm ~1,5-2% so kịch bản trước · Mục tiêu 4,5% khả thi cuối năm nếu Hormuz mở T5 · Rủi ro: xăng 25/4 + CPI T4" },
   },
 
   // ─── XII. REVIEW & ROADMAP ────────────────────────────────────
