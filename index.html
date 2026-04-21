@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VN Macro Dashboard v3.23 | 21/04/2026</title>
+<title>VN Macro Dashboard v3.24 | 21/04/2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -180,22 +180,22 @@ body{background:var(--bg);color:var(--text);font-family:'IBM Plex Sans',sans-ser
 <script>
 const D = {
   meta: {
-    version: "3.23",
+    version: "3.24",
     date: "21/04/2026",
     note: "v3.23 · 21/04 EMP 549đ→298đ · Brent +6,1%→$95,89 (Hormuz đóng lại) · LNH O/N 3,88% · VCB 26.097/26.357 · Iran từ chối đàm phán · [v3.22] US10Y + CNH/USD + Bessent/Navarro Index · ⚠️ HORMUZ PHONG TỎA ĐANG THỰC THI · Đàm phán Islamabad thất bại 21h · Ngừng bắn tạm thời 2T vẫn duy trì · Iran liên hệ Trump → tín hiệu đàm phán · Brent dao động 99–103 USD · Chợ đen 26.860/26.910 (EMP↑549đ)",
   },
 
   fx: {
-    nhnn_tc:       { value: 25105, updated: "21/04/2026", source: "NHNN/Vietstock 12/4", note: "NHNN TC 12/4: 25.105 (+3đ vs 9/4=25.102) · Trần 26.360 · Sàn 23.850 · DXY 98,44 khép tuần · UOB Q2: 26.100" },
-    nhnn_tran:     { value: 26358, updated: "21/04/2026", source: "NHNN tính toán", note: "Trần 12/4: 25.105 × 1,05 = 26.360 · VCB bán 26.360 = đúng trần · NHNN chưa nới thêm" },
+    nhnn_tc:       { value: 25102, updated: "21/04/2026", source: "NHNN/Vietstock 12/4", note: "NHNN TC 12/4: 25.105 (+3đ vs 9/4=25.102) · Trần 26.360 · Sàn 23.850 · DXY 98,44 khép tuần · UOB Q2: 26.100" },
+    nhnn_tran:     { value: 26357, updated: "21/04/2026", source: "NHNN tính toán", note: "Trần 12/4: 25.105 × 1,05 = 26.360 · VCB bán 26.360 = đúng trần · NHNN chưa nới thêm" },
     nhnn_san:      { value: 23847, updated: "21/04/2026", source: "NHNN tính toán", note: "Sàn 12/4: 25.105 × 0,95 = 23.850" },
     vcb_mua:       { value: 26097, updated: "21/04/2026", source: "tygiausd.org/VCB 12/4", note: "VCB 12/4: mua 26.100 / bán 26.360 · Giảm 13đ vs 10/4 · ACB: 26.150/26.360 · Tiếp tục xu hướng giảm sau ceasefire" },
     vcb_ban:       { value: 26357, updated: "21/04/2026", source: "tygiausd.org/VCB 12/4", note: "VCB bán 12/4: 26.360 · EMP = 26.788−26.360 = 428đ (giảm từ 599đ 10/4) · UOB Q2: 26.100 · Xu hướng về 26.100 Q2" },
     vcb_tienmat:   { value: 26097, updated: "21/04/2026", source: "VCB 12/4", note: "VCB tiền mặt 12/4: 26.100 · Spread mua-bán = 260đ" },
     tb33nh:        { value: "~26.097–26.357", updated: "21/04/2026", source: "webgia.com 12/4", note: "TB 33 NH 12/4: ~26.100–26.360 · ACB: 26.150/26.360 · Sacombank mua cao nhất: 26.220 · SCB bán thấp nhất: 26.350" },
-    tg_tu_do_mua:  { value: 26535, updated: "21/04/2026", source: "danviet.vn 21/4", note: "Chợ đen 21/4: 26.535 MUA · Giảm 83đ vs hôm qua · Giảm từ đỉnh 26.860 (14/4) · Xu hướng hạ nhiệt 3 tuần" },
-    tg_tu_do_ban:  { value: 26655, updated: "21/04/2026", source: "danviet.vn 21/4", note: "Chợ đen bán 21/4: 26.655 · EMP: 26.655−26.357 = ~298đ · Giảm mạnh từ 549đ (14/4) · Áp lực FX hạ nhiệt đáng kể từ đỉnh ~28.000 cuối T3" },
-    spread_emp:    { value: "~298đ", updated: "21/04/2026", source: "tính toán 13/4", note: "EMP 13/4: ~470đ (26.830−26.360) · TĂNG từ 428đ do Islamabad thất bại · Trump phong tỏa Hormuz → rủi ro tỷ giá tăng trở lại · Cần theo dõi biến động phiên sáng" },
+    tg_tu_do_mua:  { value: 26600, updated: "21/04/2026", source: "danviet.vn 21/4", note: "Chợ đen 21/4 15h: 26.600 MUA · Giảm 83đ vs hôm qua · Giảm từ đỉnh 26.860 (14/4) · Xu hướng hạ nhiệt 3 tuần" },
+    tg_tu_do_ban:  { value: 26650, updated: "21/04/2026", source: "danviet.vn 21/4", note: "Chợ đen bán 21/4: 26.655 · EMP: 26.655−26.357 = ~298đ · Giảm mạnh từ 549đ (14/4) · Áp lực FX hạ nhiệt đáng kể từ đỉnh ~28.000 cuối T3" },
+    spread_emp:    { value: "~293đ", updated: "21/04/2026", source: "tính toán 13/4", note: "EMP 13/4: ~470đ (26.830−26.360) · TĂNG từ 428đ do Islamabad thất bại · Trump phong tỏa Hormuz → rủi ro tỷ giá tăng trở lại · Cần theo dõi biến động phiên sáng" },
     forecast_mua:  { value: "25.800–26.100", updated: "10/04/2026", source: "Nội bộ", note: "Dự báo mua Q2: 25.800–26.100 · UOB Q2 VCB bán: 26.100" },
     forecast_ban:  { value: "26.100–26.400", updated: "10/04/2026", source: "Nội bộ", note: "Dự báo bán Q2: 26.100–26.400 · Ceasefire + DXY yếu = VND hưởng lợi" },
     uob_q2:        { value: 26100, updated: "10/04/2026", source: "UOB Research", note: "UOB Q2/2026: 26.100 · Q3: 26.000 · Q4: 25.900 · [v3.18 FIX: 26400→26100]" },
