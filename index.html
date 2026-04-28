@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>VN Macro Dashboard v3.28 | 28/04/2026</title>
+<title>VN Macro Dashboard v3.29 | 28/04/2026</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -180,7 +180,7 @@ body{background:var(--bg);color:var(--text);font-family:'IBM Plex Sans',sans-ser
 <script>
 const D = {
   meta: {
-    version: "3.28",
+    version: "3.29",
     date: "28/04/2026",
     note: "v3.23 · 21/04 EMP 549đ→298đ · Brent +6,1%→$95,89 (Hormuz đóng lại) · LNH O/N 3,88% · VCB 26.097/26.357 · Iran từ chối đàm phán · [v3.22] US10Y + CNH/USD + Bessent/Navarro Index · ⚠️ HORMUZ PHONG TỎA ĐANG THỰC THI · Đàm phán Islamabad thất bại 21h · Ngừng bắn tạm thời 2T vẫn duy trì · Iran liên hệ Trump → tín hiệu đàm phán · Brent dao động 99–103 USD · Chợ đen 26.860/26.910 (EMP↑549đ)",
   },
@@ -288,11 +288,11 @@ const D = {
 
   rates_tt1: {
     tran_ngan_han: { value: 4.75, updated: "10/04/2026", source: "NHNN QĐ", note: "Trần <6T: Big4 đều 4,75% online" },
-    big4_6_12t:    { value: "NÊM YẾT ≤6% | THỰC TẾ 7,8–8%", updated: "21/04/2026", source: "cafef/markettimes/phân tích 13/4", note: "⚠️ HAI MỨC LÃI SUẤT: (1) NIÊM YẾT công khai ≤6%/năm (áp lực SBV — VCB/BIDV/VietinBank/Agribank tuân thủ từ 13/4) · (2) THỰC TẾ huy động >6T: 7,8–8%/năm (các NH phải cạnh tranh do LDR ~100% chưa cải thiện · thanh khoản chưa được xử lý cơ bản) · Chênh lệch niêm yết vs thực tế = dấu hiệu thanh khoản thực sự căng" },
-    tn_lon_6_12t:  { value: "7,3–7,9", updated: "10/04/2026", source: "VnNet", note: "NH tư nhân lớn: 7,3–7,9% · ABBank giảm 0,5% → các NH khác sẽ theo" },
-    tn_vua_6_12t:  { value: "7,5–8,2", updated: "10/04/2026", source: "doanhnghiephoinhap", note: "NH tư nhân vừa: 7,5–8,2% · Giảm từ 8,0–8,5%" },
-    tn_12t_dinh:   { value: "8,0–8,5", updated: "10/04/2026", source: "VTC", note: "Đỉnh LS 12T: 8,0–8,5% · Sẽ về 7,5–8,0% trong tuần tới" },
-    nhan_xet:      { value: "⚠️ PHÂN BIỆT: Niêm yết ≤6% (SBV) ≠ Thực tế 7,8–8% (thanh khoản/LDR) · Brent >$105 = rủi ro mới", updated: "21/04/2026", source: "cafef/markettimes 13/4", note: "VCB giảm 24T: 6,5%→6% hiệu lực 13/4 · Tất cả kỳ hạn VCB ≤6%/năm · NHƯNG: Islamabad thất bại + dầu >$105 → áp lực CPI tăng trở lại → NHNN phải cân nhắc kỹ · LDR ~100% vẫn ràng buộc cứng" },
+    big4_6_12t:    { value: "NÊM YẾT ≤6% | THỰC TẾ 7,8–8% · Big TMCP: 8% niêm yết", updated: "28/04/2026", source: "cafef/markettimes/phân tích 13/4", note: "⚠️ HAI MỨC LÃI SUẤT: (1) NIÊM YẾT công khai ≤6%/năm (áp lực SBV — VCB/BIDV/VietinBank/Agribank tuân thủ từ 13/4) · (2) THỰC TẾ huy động >6T: 7,8–8%/năm (các NH phải cạnh tranh do LDR ~100% chưa cải thiện · thanh khoản chưa được xử lý cơ bản) · Chênh lệch niêm yết vs thực tế = dấu hiệu thanh khoản thực sự căng" },
+    tn_lon_6_12t:  { value: "8,0–8,5", updated: "28/04/2026", source: "Khảo sát 28/4", note: "Big TMCP (MB/VPBank/ACB/Techcombank): 8% (6T-12T) · VPBank 6T: 6,9%→ 12T: 7,1% · MB 12T: 6,5-7,5% · Xu hướng: BẮT ĐẦU ổn định, chưa giảm" },
+    tn_vua_6_12t:  { value: "9,0–10,0", updated: "28/04/2026", source: "Khảo sát 28/4", note: "NH tư nhân nhỏ/vừa: PVcomBank 10% · OceanBank/PGBank/HDBank: 9-9,5% · BacABank 7,25% (6T) · Tư nhân buộc giữ cao để cạnh tranh thanh khoản" },
+    tn_12t_dinh:   { value: "9,5–10,0", updated: "28/04/2026", source: "Khảo sát 28/4", note: "Đỉnh LS 12T: PVcomBank 10% · OceanBank 7,2% (quầy) · Cake by VPBank online 7,4% · BAC A BANK 7,25% (6T) · ĐỈnh chưa qua → không có dấu hiệu giảm Q2/2026" },
+    nhan_xet:      { value: "⚠️ PHÂN BIỆT: Big4 niêm yết ≤6% | Big TMCP 8% (đã đạt đỉnh tạm) | Tư nhân 9-10% | Brent $108 + EMP 432đ = áp lực lạm phát mới → SBV chưa thể nới thêm Q2/2026", updated: "28/04/2026", source: "cafef/markettimes 13/4", note: "VCB giảm 24T: 6,5%→6% hiệu lực 13/4 · Tất cả kỳ hạn VCB ≤6%/năm · NHƯNG: Islamabad thất bại + dầu >$105 → áp lực CPI tăng trở lại → NHNN phải cân nhắc kỹ · LDR ~100% vẫn ràng buộc cứng" },
     ldr:           { value: "~100%", updated: "10/04/2026", source: "Phân tích cấu trúc", note: "LDR hệ thống: ~100% · Big4: 92–95% · Tư nhân: 105–115%" },
     ldr_t2_hd:     { value: "~+0,5%", updated: "10/04/2026", source: "Phân tích T2/2026", note: "LDR huy động T4: ước +0,5% · Tín dụng Q1 +2,65% nhưng huy động cũng tăng" },
     du_bao_ls:     { value: "Niêm yết: ≤6% | Thực tế >6T: 7,8–8% · Dầu >$105 = rủi ro tăng trở lại", updated: "21/04/2026", source: "Phân tích 13/4", note: "VCB đã giảm 24T→6% · Target Q2 Big4: 6,0–7,0% · RỦI RO MỚI: Brent >$105 → CPI lag T5-T6 có thể cao hơn dự báo → NHNN phải cân nhắc pace giảm LS · Kịch bản tốt nhất: 5,5–6,5% Q2 nếu Hormuz giải tỏa · Xấu: quay về 7,5–8,5%" },
@@ -868,14 +868,18 @@ document.getElementById('panel-hormuz-flows').innerHTML=`
       <tr><td class="d">10/3</td><td class="d">Trump "sắp kết thúc" → Brent −7%</td><td class="y">~3–4</td><td class="y">KB-C/D</td></tr>
       <tr><td class="d">14/3</td><td class="d">Brent phá $100 · tàu Ấn từ Oman</td><td class="y">~4–5</td><td class="y">KB-C</td></tr>
       <tr><td class="d">21/3</td><td class="d">Goldman: Hormuz mở T4 · Iran cho tàu Ấn</td><td class="y">~4–6</td><td class="y">KB-C</td></tr>
-      <tr><td class="d">24/3</td><td class="d">Trump gia hạn 6/4 · EMP đỉnh 1.656đ</td><td class="y">~4–6</td><td class="y">KB-C/D</td></tr>
-      <tr><td class="d">27/3</td><td class="d">Iran đàm phán qua Pakistan · 20 tàu cho qua</td><td class="y">~6–10</td><td class="y">KB-C</td></tr>
-      <tr><td class="d">29/3</td><td class="d">Chợ đen 28.150 kỷ lục · Brent $116</td><td class="r">~4–5</td><td class="r">KB-D</td></tr>
-      <tr><td class="d">31/3</td><td class="d">Iran xác nhận đàm phán · BATNA Mỹ mạnh</td><td class="y">~10–15</td><td class="y">KB-C</td></tr>
-      <tr><td class="d">06/4</td><td class="d">DEADLINE · Polymarket 80,5% Hormuz chưa mở · Oman dự thảo protocol</td><td class="r">~5–10</td><td class="r">KB-C/D</td></tr>
-      <tr><td class="d">07/4</td><td class="d">Chợ đen −268đ → 27.050 · EIA <$80 Q3 · Trump hell deadline 3h sáng</td><td class="y">~10–20</td><td class="y">KB-B/C</td></tr>
-      <tr style="background:rgba(34,197,94,.08)"><td class="g">08/4</td><td class="g">🟢 CEASEFIRE 2 tuần · Iran mở Hormuz · Brent −13%→$95 · Đàm phán Islamabad 10/4</td><td class="g">~50–100+</td><td class="g">KB-A/B</td></tr>
-      <tr style="background:rgba(34,197,94,.05)"><td class="g">10/4</td><td class="g">Islamabad talks · 46 NH cam kết giảm LS · Brent $93–95 · EMP 599đ</td><td class="g">~20–50</td><td class="g">KB-B</td></tr>
+      <tr><td class="d">26/3</td><td class="d">Iran mở 5 nước (CN/RU/IN/IQ/PK)</td><td class="y">~6–8</td><td class="y">KB-C</td></tr>
+      <tr><td class="d">07/4</td><td class="d">Ceasefire 7/4 · Iran mở có điều kiện</td><td class="y">~8–12</td><td class="y">KB-C</td></tr>
+      <tr><td class="d">10/4</td><td class="d">Brent −13% ceasefire · TT2 hạ nhiệt</td><td class="ok">~10–15</td><td class="y">KB-B/C</td></tr>
+      <tr><td class="d">13/4</td><td class="d">Mỹ blockade cảng Iran · Dual blockade bắt đầu</td><td class="r">~1–5</td><td class="r">KB-D</td></tr>
+      <tr><td class="d">17/4</td><td class="d">Iran tuyên bố Hormuz "mở hoàn toàn" trong ceasefire</td><td class="ok">~18–20</td><td class="y">KB-B/C</td></tr>
+      <tr><td class="d">18/4</td><td class="d">Đỉnh 20 tàu/ngày (Thứ 7) · Ceasefire hiệu quả nhất</td><td class="ok">~20</td><td class="ok">KB-B</td></tr>
+      <tr><td class="d">19/4</td><td class="d">Đóng lại sau tấn công · Brent +6,1% ngay</td><td class="r">~2–5</td><td class="r">KB-C/D</td></tr>
+      <tr><td class="d">21/4</td><td class="d">~16 tàu/ngày · Iran từ chối vòng 2 · EMP 298đ</td><td class="y">~16</td><td class="y">KB-C</td></tr>
+      <tr><td class="d">22/4</td><td class="d">Trump gia hạn không hạn · Iran bắt MSC Francesca</td><td class="y">~10</td><td class="y">KB-C</td></tr>
+      <tr><td class="d">25/4</td><td class="d">Witkoff+Kushner bay Pakistan · Brent $105</td><td class="y">~8</td><td class="y">KB-C</td></tr>
+      <tr><td class="d">26/4</td><td class="d" style="color:var(--err)">Trump HỦY talks · Araghchi về không gặp Mỹ · Brent +3%</td><td class="r">~5</td><td class="r">KB-C/D</td></tr>
+      <tr><td class="d">28/4</td><td class="d" style="color:var(--warn)">Brent $108 · Iran đề xuất MỚI (Axios) · FOMC hôm nay · 1/5 deadline QH</td><td class="r">~5–10</td><td class="r">KB-C/D</td></tr>
     </tbody>
   </table>
   <div class="co co-g" style="margin-top:8px"><strong>🟢 Post-ceasefire:</strong> 1.500 tàu đang xếp hàng ngoài Oman · Islamabad = catalyst để con số này tăng lên 200+/ngày</div>`;
@@ -978,7 +982,22 @@ document.getElementById('panel-omo').innerHTML=`
     <strong style="color:var(--red)">⑥ KẾT LUẬN: LS VND phản ánh chi phí duy trì cân bằng</strong><br>
     → Khi 3 ràng buộc chưa tháo gỡ: <strong>LS là trạng thái cân bằng mới, không phải spike tạm thời</strong>
     </span>
-  </div>`;
+  </div>
+  <div style="margin-top:12px;padding:8px 12px;background:rgba(245,158,11,.06);border:1px solid rgba(245,158,11,.2);border-radius:3px">
+    <div style="font-size:11px;letter-spacing:1px;color:var(--yellow);margin-bottom:8px">🎯 5 TÍN HIỆU THEO DÕI — KHI NÀO TT1 ĐẠTĐỈNH VÀ GIẢM</div>
+    <table class="tbl" style="font-size:11px">
+      <thead><tr><th>#</th><th>Tín hiệu</th><th>Trạng thái</th></tr></thead>
+      <tbody>
+        <tr><td>①</td><td>NHNN bơm ròng ≥3 tuần liên · TT2 O/N &lt;3% bền vững</td><td class="r">❌ Hiện HÚT ròng · O/N 3,5-3,9%</td></tr>
+        <tr><td>②</td><td>TT26 chính thức nới: cho 20% KBNN vào LDR → giảm LDR cấu trúc</td><td class="r">⏳ Đã đề xuất, CHƯA ban hành</td></tr>
+        <tr><td>③</td><td>M2 tăng nhanh hơn tín dụng (M2/TD &gt;1,05) → dư thanh khoản</td><td class="r">❌ Tín dụng Q1 +3,18% &gt; M2 (thiếu số)</td></tr>
+        <tr><td>④</td><td>ĐTC giải ngân lớn T5-T8 → VND tuần hoàn vào NH (mùa vụ)</td><td class="y">⏳ T5/2026 — CHỜ xem tốc độ</td></tr>
+        <tr><td>⑤</td><td>Brent &lt;$85 + CPI &lt;4% → SBV cắt OMO rate → TT2 giảm → TT1 lag 4-8T</td><td class="r">❌ Brent $108 · CPI dự kiến 5-6% T5-T6</td></tr>
+      </tbody>
+    </table>
+    <div style="margin-top:6px;font-size:11px;color:var(--dim2)">📌 Kết luận: TT1 vẫn cao ít nhất Q2/2026. Tín hiệu giảm sớm nhất: TT26 nới + ĐTC mạnh T5-T6 → TT1 có thể đỉnh trong T5/2026 và giảm dần T6-T7.</div>
+  </div>
+`;
 
 // IV. TT1 & CPI
 document.getElementById('panel-tt1').innerHTML=`
